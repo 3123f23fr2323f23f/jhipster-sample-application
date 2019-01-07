@@ -1,0 +1,23 @@
+{
+    "name": "CheckIn",
+    "fields": [
+        {
+            "fieldName": "userID",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "timeCheckIn",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190107112850",
+    "entityTableName": "check_in",
+    "dto": "no",
+    "pagination": "pagination",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*"
+}
