@@ -1,0 +1,17 @@
+entity User {
+	userID Integer 
+	userCardID String
+    userFullName String
+}
+
+entity CheckIn {
+	userID Integer 
+    timeCheckIn String
+}
+
+paginate all with pagination
+
+// dto all with mapstruct
+
+// Set service options to all
+service all with serviceImpl
